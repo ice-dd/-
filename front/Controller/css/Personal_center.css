@@ -1,0 +1,375 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body{
+    min-width: 1400px
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.clear{
+    clear:both;
+}
+
+.top {
+    height: 35px;
+    background-color: white;
+}
+
+.top-mi {
+    height: 35px;
+    width: 1200px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.top-mi ul li {
+    float: left;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+.top-mi span {
+    color: #a01f23;
+}
+
+.top-left ul li {
+    margin-right: 10px;
+}
+
+.top-left ul li img {
+    vertical-align: -2px;
+}
+
+.top-right {
+    float: right;
+}
+
+.top-right ul li {
+    margin-left: 20px;
+}
+
+/*          顶部             */
+
+
+
+.logo {
+    height: 130px;
+    margin: 0 auto;
+}
+
+.logo .logo-mi {
+    height: 130px;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.dnf-logo {
+    height: 130px;
+    width: 258px;
+    float: left;
+}
+
+.dnf-logo img {
+    margin-top: 20px;
+    margin-bottom: 19px;
+}
+
+.sousuo {
+    height: 66px;
+    width: 350px;
+    margin-left: 475px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    position: relative;
+}
+
+.sousuo .input {
+    border: 1px solid #e00011;
+    font-size: 14px;
+    width: 260px;
+    height: 33px;
+    line-height: 32px;
+    border-right: 0px;
+    background: none;
+}
+
+.sousuo img {
+    background-color: #e00011;
+    position: absolute;
+    height: 35px;
+    width: 35px;
+}
+
+.sousuo ul li {
+    float: left;
+    font-size: 14px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.sousuo ul li a {
+    color: white;
+}
+
+.middle {
+    height: 1000px;
+    background: url("../img/index_1ok.jpg") no-repeat;
+}
+
+.middle .middle-nav-mi {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    background: #bf040f;
+}
+
+.middle .middle-nav-mi ul{
+    margin-left: 10px;
+}
+
+.middle .middle-nav-mi ul li {
+    float: left;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.middle .middle-nav-mi ul li a {
+    color: white;
+}
+
+.middle .middle-nav-mi ul li:nth-child(2n) {
+    color: #ff846e;
+}
+
+.middle .center{
+    height: 800px;
+    width: 1200px;
+    background: white;
+    margin: 30px auto;
+}
+
+.middle .center .center-top{
+    height: 36px;
+    width: 1200px;
+}
+
+.middle .center .center-top .nav-left{
+    height: 36px;
+    float: left;
+    text-align: center;
+}
+
+.middle .center .center-top .nav-left img{
+    vertical-align: middle;
+    margin: 6px 0 6px 6px;
+}
+
+.middle .center .center-top .nav-left span{
+    vertical-align: middle;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.middle .center .center-top .nav-right{
+    float: right;
+    height: 36px;
+}
+
+.middle .center .center-top .nav-right ul li{
+    float: left;
+    margin-right: 15px;
+    line-height: 36px;
+    font-size: 14px;
+}
+
+.middle .center .center-bottom .left-nav{
+    height:250px;
+    width: 200px;
+    margin-right: 15px;
+    float: left;
+    border-top: 4px solid black;
+    border-right: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+}
+
+.middle .center .center-bottom .left-nav ul li {
+    height: 48px;
+    width: 173px;
+    padding-left: 25px;
+    line-height: 48px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.middle .center .center-bottom .left-nav ul li a:hover{
+    text-decoration: underline;
+    color: #971f23;
+}
+
+.middle .center .center-bottom .right-nav{
+    height:600px;
+    width: 981px;
+    float: left;
+    border-top: 4px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    border-right: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+}
+
+.middle .center .center-bottom .right-nav div{
+    position: absolute;
+
+}
+
+.middle .center .center-bottom .right-nav .nei-1{
+    background: red;
+    width: 200px;
+    height: 200px;
+}
+.middle .center .center-bottom .right-nav .nei-2{
+    background: greenyellow;
+    width: 200px;
+    height: 200px;
+}
+.middle .center .center-bottom .right-nav .nei-3{
+    background: blue;
+    width: 200px;
+    height: 200px;
+}
+.middle .center .center-bottom .right-nav .nei-4{
+    background: orange;
+    width: 200px;
+    height: 200px;
+}
+
+
+/*          底部          */
+
+.bottom {
+    height: 220px;
+    width: 100%;
+    background-color: white;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
+
+.bottom-mi {
+    height: 220px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bottom-top {
+    height: 80px;
+    width: 100%;
+    background-color: #dedede;
+}
+
+.bottom-top .bottom-top-mi {
+    height: 80px;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.bottom-top .bottom-top-mi ul li {
+    float: left;
+    height: 80px;
+    width: 280px;
+    margin-left: 80px;
+}
+
+.bottom-top .bottom-top-mi img {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    vertical-align: center;
+    float: left;
+}
+
+.bottom-top .bottom-top-mi div {
+    margin-top: 15px;
+}
+
+.bottom-top .bottom-top-mi .Bold {
+    display: block;
+    font-weight: 700;
+}
+
+.bottom-top .bottom-top-mi .mini {
+    font-size: 14px;
+    color: #666;
+}
+
+.bottom-bottom {
+    height: 200px;
+    width: 1200px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.bottom-bottom .bottom-ul {
+    margin: 0 80px;
+}
+
+.bottom-bottom .bottom-ul .bottom-ul-li {
+    float: left;
+    height: 166px;
+    width: 170px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
+.bottom-bottom .bottom-ul .bottom-ul-li1 {
+    float: left;
+    height: 166px;
+    width: 120px;
+    margin-left: 120px;
+    border-left: 1px solid #dedede;
+    padding-left: 30px;
+}
+
+.bottom-bottom .bottom-ul .bottom-ul-li1 span {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+}
+
+.bottom-bottom .bottom-ul .bottom-ul-li ul {
+    margin-top: 15px;
+}
+
+.bottom-bottom .bottom-ul .bottom-ul-li ul li {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.bottom-bottom .bottom-ul .bottom-ul-li ul li a {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.bottom-b{
+    width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+    color: #666666;
+    font-size: 14px;
+}

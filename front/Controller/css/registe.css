@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    min-width: 1400px
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#warn1, #warn2, #warn3, #warn4 {
+    font-size: 14px;
+    color: red;
+}
+
+.top {
+    height: 35px;
+    width: 100%;
+    background-color: white;
+}
+
+.top-mi {
+    height: 35px;
+    width: 1200px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.top-mi ul li {
+    float: left;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+.top-mi span {
+    color: #a01f23;
+}
+
+.top-left ul li {
+    margin-right: 10px;
+}
+
+.top-left ul li img {
+    vertical-align: -2px;
+}
+
+.top-right {
+    float: right;
+}
+
+.top-right ul li {
+    margin-left: 20px;
+}
+
+/*          顶部             */
+
+.big {
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    width: 100%;
+    height: 542px;
+    background: url("../img/login_bg.jpg") no-repeat;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.middle .login {
+    margin-left: 940px;
+    margin-top: 60px;
+    height: 350px;
+    width: 570px;
+}
+
+.middle .login table {
+    margin: 10px 4px;
+    width: 560px;
+    height: 350px;
+    color: white;
+}
+
+.middle .login table tr td #user_38, #pwd, #cfmpwd {
+    width: 200px;
+    background: none;
+    color: white;
+    height: 30px;
+    line-height: 48px;
+    padding-left: 10px;
+    border: 1px #d9d9d9 solid;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.middle .login table tr td #code_38{
+	width: 80px;
+    background: none;
+    color: white;
+    height: 30px;
+    line-height: 48px;
+    padding-left: 10px;
+    border: 1px #d9d9d9 solid;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.middle .login table tr td img{
+	vertical-align: middle;
+}
+
+.middle .login table tr td #login, #call-off {
+    height: 30px;
+    width: 50px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.middle .login table tr td #login:hover, #call-off:hover {
+    background: white;
+    color: black;
+}
+
+/*          底部          */
+
+.bottom {
+    height: 220px;
+    width: 100%;
+    background-color: white;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
+
+.bottom-mi {
+    height: 220px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bottom-top {
+    height: 80px;
+    width: 100%;
+    background-color: #dedede;
+}
+
+.bottom-top .bottom-top-mi {
+    height: 80px;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.bottom-top .bottom-top-mi ul li {
+    float: left;
+    height: 80px;
+    width: 280px;
+    margin-left: 80px;
+}
+
+.bottom-top .bottom-top-mi img {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    vertical-align: center;
+    float: left;
+}
+
+.bottom-top .bottom-top-mi div {
+    margin-top: 15px;
+}
+
+.bottom-top .bottom-top-mi .Bold {
+    display: block;
+    font-weight: 700;
+}
+
+.bottom-top .bottom-top-mi .mini {
+    font-size: 14px;
+    color: #666;
+}
+
+.bottom-bottom {
+    height: 200px;
+    width: 1200px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.bottom-bottom .bottom-ul {
+    margin: 0 80px;
+}
+
+.bottom-bottom .bottom-ul .bottom-ul-li {
+    float: left;
+    height: 166px;
+    width: 170px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
+.bottom-bottom .bottom-ul .bottom-ul-li1 {
+    float: left;
+    height: 166px;
+    width: 120px;
+    margin-left: 120px;
+    border-left: 1px solid #dedede;
+    padding-left: 30px;
+}
+
+.bottom-bottom .bottom-ul .bottom-ul-li1 span {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+}
+
+.bottom-bottom .bottom-ul .bottom-ul-li ul {
+    margin-top: 15px;
+}
+
+.bottom-bottom .bottom-ul .bottom-ul-li ul li {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.bottom-bottom .bottom-ul .bottom-ul-li ul li a {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.bottom-b {
+    width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+    color: #666666;
+    font-size: 14px;
+}
