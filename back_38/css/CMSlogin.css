@@ -1,0 +1,158 @@
+*,*:after,*:before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #fff;
+	color: #383a3c;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.25;
+}
+
+a {
+	color: #566473;
+	text-decoration: none;
+}
+
+a:hover,a:focus {
+	color: #34495e;
+}
+
+p {
+	margin-top: 7px;
+	margin-left: 10px;
+}
+
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+.demo-1 .large-header {
+	background:url('../img/bg.jpg') ;
+}
+
+.logo_box {
+	width: 400px;
+	height: 500px;
+	padding: 35px;
+	color: #EEE;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -250px;
+}
+
+.logo_box h3 {
+	text-align: center;
+	height: 20px;
+	font: 20px "microsoft yahei", Helvetica, Tahoma, Arial, "Microsoft jhengHei", sans-serif;
+	color: #FFFFFF;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 0 35px 0;
+}
+
+.input_user,.input_pass {
+	height: 46px;
+	padding: 0 5px;
+	margin-bottom: 30px;
+	border-radius: 50px;
+	position: relative;
+	border: rgba(255, 255, 255, 0.2) 2px solid !important;
+}
+
+.input_outer {
+	width: 158px;
+	height: 46px;
+	padding: 0 5px;
+	margin-bottom: 30px;
+	border-radius: 50px;
+	position: relative;
+	border: rgba(255, 255, 255, 0.2) 2px solid !important;
+}
+
+.u_user1 {
+	width: 30px;
+	height: 30px;
+	background: url(../img/name.png);
+	position: absolute;
+	margin: 7px 13px;
+}
+
+.us_uer2 {
+	width: 26px;
+	height: 26px;
+	background: url(../img/pass.png) ;
+	position: absolute;
+	margin: 7px 13px;
+}
+
+.text {
+	width: 220px;
+	outline: none;
+	display: inline-block;
+	font: 14px "microsoft yahei", Helvetica, Tahoma, Arial, "Microsoft jhengHei";
+	margin-left: 50px;
+	border: none;
+	background: none;
+	line-height: 42px;
+	color: white;
+}
+
+.text1 {
+	width: 85px;
+	outline: none;
+	display: inline-block;
+	font: 14px "microsoft yahei", Helvetica, Tahoma, Arial, "Microsoft jhengHei";
+	margin-left: 25px;
+	border: none;
+	background: none;
+	line-height: 42px;
+	color: white;
+}
+
+.mb2 {
+	margin-bottom: 20px
+}
+
+.mb2 a {
+	text-decoration: none;
+	outline: none;
+}
+
+.submit {
+	padding: 15px;
+	margin-top: 20px;
+	display: block;
+}
+
+.act-but {
+	width:334px;
+	line-height: 20px;
+	font-size: 20px;
+	border-radius: 50px;
+	background: #0096e6;
+	border: 0px;
+}
+
+.input_outer input{
+	float:left;
+	display: inline-block;
+}
+
+img{
+	position: absolute;
+	top:-2px;
+	left: 170px;
+}
